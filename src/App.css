@@ -1,5 +1,35 @@
 .App {
   text-align: center;
+  background-image: url(./wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+.img{
+  width: 300px;
+  float: left;
+  margin: 30px;
+}
+
+.name{
+  margin: 0;
+  font-size: 2em;
+  margin-right: 300px;
+}
+
+.address{
+  font-size: 2em;
+}
+
+.part1{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: 15px;
 }
 
 .App-logo {
